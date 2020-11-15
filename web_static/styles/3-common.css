@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Circular, "Helvetica Neue",Helvetica,Arial,sans-serif;;
+    color:  #484848;
+    font-size: 14px;
+    
+}
+
+div.image {
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 146px;
+}
+
+div.align {
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+div.footer {
+    text-align: center;
+    padding-top: 22px;
+}

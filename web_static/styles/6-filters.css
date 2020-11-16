@@ -13,6 +13,10 @@ section.filters {
     padding-left: 45px;
 }
 
+button:hover {
+    opacity: 0.9;
+}
+
 .locations {
     border-right: 1px solid  #DDDDDD;
 }
@@ -44,12 +48,17 @@ li {
 li.final {
     margin-bottom: 50px;
 }
+
 .popover {
     background-color: #FAFAFA;
+    color: #484848;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     margin-left: -45px;
-    display: none;
+    display: block;
+    visibility: hidden;
+    z-index: 1;
+    position: relative;
 }
 
 .locations:hover .popover, 
